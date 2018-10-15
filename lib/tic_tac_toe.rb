@@ -138,7 +138,6 @@ end
 def play(board)
  
   until over?(board) == true
-   binding.pry
     turn(board)
   end
     
