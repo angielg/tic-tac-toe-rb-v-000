@@ -136,8 +136,9 @@ def winner(board)
 end
 
 def play(board)
-  binding.pry
+ 
   until over?(board) == true
+   binding.pry
     turn(board)
   end
     
